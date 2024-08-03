@@ -1,2 +1,2 @@
 # Mall.js
-Get started learn React Hooks
+Výuková webová aplikace na React Hooky zasazená mezi obchodní domy
