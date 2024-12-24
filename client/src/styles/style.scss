@@ -1,0 +1,145 @@
+@import './custom.scss';
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url("../font/VarelaRound-Regular.ttf");
+    font-style: normal;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: #ffffff !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: $primary;
+    border-radius: 0px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#Footer{
+  color: white;
+  letter-spacing: 1;
+  font-size: 16px;
+  padding: 30px 0px;
+}
+
+#Component {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border-radius: 8px;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.verticalHorizonCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/* HTML & BODY */
+
+html, body{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI !important;
+  color: $success !important;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 35px;
+}   
+
+h2 {
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 25px;
+}   
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+.text-content{
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.theme-link{
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.18);
+  border-bottom: 3px solid rgba(228, 228, 228, 0.199);
+  padding-bottom: 3px;
+}
+
+/*------------------------------------------------------------------------------*/ 
+
+.navbar{
+  min-height: 80px;
+  box-shadow: 6px 1px 4px rgba(0, 0, 0, 0.339);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  margin-right: 15px;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.18);
+  letter-spacing: 0.5px;
+  border-radius: 4px !important;
+}
+
+.nav-link i {
+  margin-right: 10px;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+.btn {
+  margin-right: 10px;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.18);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.btn i {
+  padding-right: 5px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover{
+  scale: 105%;
+  transition: 0.3s;
+}

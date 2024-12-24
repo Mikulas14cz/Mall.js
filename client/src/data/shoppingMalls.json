@@ -1,0 +1,28 @@
+[
+  {   
+    "_id": "6651490b26e9d503b387c070",
+    "name": "Nákupní centrum Nový Smíchov",
+    "nickname": "Smíchov",
+    "description": "Velké obchodní centrum v centru Prahy",
+    "openingTime": 3,
+    "closingTime": 22,
+    "shops": [
+      {
+        "name": "Hračkářství",
+        "capacity": 40
+      },
+      {
+        "name": "Elektro",
+        "capacity": 50
+      },
+      {
+        "name": "Švadlenka",
+        "capacity": 10
+      },
+      {
+        "name": "Květinářství",
+        "capacity": 15
+      }
+    ]
+  }
+]

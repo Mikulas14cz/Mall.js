@@ -1,0 +1,19 @@
+/* The following block can be included in a custom.scss */
+/* import bootstrap to set changes */
+
+$primary: #198754;
+
+$theme-colors: (
+  "primary": $primary,
+);
+
+.ls-1{
+    letter-spacing: 1px
+}
+
+.ls-2{
+    letter-spacing: 2px
+}
+
+/* import bootstrap to set changes */
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
